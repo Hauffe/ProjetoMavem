@@ -14,5 +14,7 @@ import java.util.List;
  */
 public interface ProdutoRepositorio {  
     List<Produto> obterTodos();
+    List<Produto> obterTodosPorId(int CategoriaId);
     Produto obterPorId(long id);
+    Produto adicionar(Produto produto);
 }

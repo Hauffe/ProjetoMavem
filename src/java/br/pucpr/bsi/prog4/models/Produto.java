@@ -10,6 +10,7 @@ public class Produto {
     private String nome;
     private float Quantidade;
     private float PrecoUnitario;
+    private Categoria categoria;
 
     public long getId() {
         return id;
@@ -42,4 +43,13 @@ public class Produto {
     public void setPrecoUnitario(float PrecoUnitario) {
         this.PrecoUnitario = PrecoUnitario;
     }
+
+    public Categoria getCategoria() {
+        return categoria;
+    }
+
+    public void setCategoria(Categoria categoria) {
+        this.categoria = categoria;
+    }
+
 }
