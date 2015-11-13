@@ -4,7 +4,9 @@
     Author     : alexandre.hauffe
 --%>
 
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -13,6 +15,8 @@
     </head>
     <body>
         <h1></h1>
-        
+        <form:form modelAttribute="novoProduto">
+            
+        </form:form>
     </body>
 </html>
